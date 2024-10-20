@@ -2,9 +2,9 @@ import React from 'react'
 import Logo from "../assets/logo.png"
 export default function Navbar() {
   return (
-    <div className='container mx-auto py-10 flex justify-between items-center'>
+    <div className='mx-16 py-10  flex justify-between items-center'>
       <div className='flex gap-4'>
-      <img className ="h-10"src={Logo}/>
+      <img className ="hidden lg:h-10 lg:flex"src={Logo}/>
        <h1 className='font-bold text-2xl'>Kilas Psikologi</h1>
       </div>
        <div className='flex gap-5'>
