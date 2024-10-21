@@ -12,6 +12,7 @@ import skinner from "../assets/skinner.jpg";
 
 const tokohPsikologi = [
   {
+    id: 1,
     nama: "Sigmund Freud",
     bidang: "Psikoanalisis",
     teori: "Teori Kepribadian dan Psikoanalisis",
@@ -20,6 +21,7 @@ const tokohPsikologi = [
     gambar: james,
   },
   {
+    id: 2,
     nama: "Carl Jung",
     bidang: "Psikologi Analitis",
     teori: "Teori Kepribadian Jung",
@@ -28,6 +30,7 @@ const tokohPsikologi = [
     gambar: carl,
   },
   {
+    id: 3,
     nama: "Alfred Adler",
     bidang: "Psikologi Individual",
     teori: "Teori Inferioritas",
@@ -36,6 +39,7 @@ const tokohPsikologi = [
     gambar: alfred,
   },
   {
+    id: 4,
     nama: "John B. Watson",
     bidang: "Psikologi Perilaku",
     teori: "Teori Behaviorisme",
@@ -44,6 +48,7 @@ const tokohPsikologi = [
     gambar: jhon,
   },
   {
+    id: 5,
     nama: "Carl Rogers",
     bidang: "Psikologi Humanistik",
     teori: "Teori Terapi Berpusat pada Klien",
@@ -52,6 +57,7 @@ const tokohPsikologi = [
     gambar: rogers,
   },
   {
+    id: 6,
     nama: "Abraham Maslow",
     bidang: "Psikologi Humanistik",
     teori: "Hierarki Kebutuhan",
@@ -60,6 +66,7 @@ const tokohPsikologi = [
     gambar: abraham,
   },
   {
+    id: 7,
     nama: "Jean Piaget",
     bidang: "Psikologi Perkembangan",
     teori: "Teori Tahapan Kognitif",
@@ -68,6 +75,7 @@ const tokohPsikologi = [
     gambar: jean,
   },
   {
+    id: 8,
     nama: "Erik Erikson",
     bidang: "Psikologi Perkembangan",
     teori: "Teori Tahapan Psikososial",
@@ -76,6 +84,7 @@ const tokohPsikologi = [
     gambar: erikson,
   },
   {
+    id: 9,
     nama: "B.F. Skinner",
     bidang: "Psikologi Perilaku",
     teori: "Teori Pengkondisian Operan",
@@ -84,6 +93,7 @@ const tokohPsikologi = [
     gambar: skinner,
   },
   {
+    id: 10,
     nama: "Lev Vygotsky",
     bidang: "Psikologi Kognitif",
     teori: "Teori Perkembangan Sosial-Kognitif",
@@ -92,6 +102,7 @@ const tokohPsikologi = [
     gambar: lev,
   },
   {
+    id: 11,
     nama: "Albert Bandura",
     bidang: "Psikologi Sosial",
     teori: "Teori Pembelajaran Sosial",
