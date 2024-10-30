@@ -19,8 +19,8 @@ export default function Detail({ Tokoh }) {
         />
         <p className="text-xl font-semibold">{person.teori}</p>
         <p className="text-base my-4">{person.materi}</p>
+        <Comments />
       </div>
-      <Comments />
     </div>
   );
 }
