@@ -7,7 +7,7 @@ export default function Comments() {
       <div className="w-10 h-10 bg-gray-300 rounded-full flex-shrink-0"></div>
 
       {/* Comment Input */}
-      <div className="flex  flex-col w-full ">
+      <div className="flex bg-primary flex-col w-full ">
         <input
           className="w-full p-2 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:border-blue-500"
           type="text"
