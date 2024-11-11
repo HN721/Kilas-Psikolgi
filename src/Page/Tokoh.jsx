@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { tokohContext } from "../App";
 
-export default function Tokoh({ Tokoh }) {
+export default function Tokoh() {
+  const Tokoh = useContext(tokohContext);
   const navigate = useNavigate();
 
   function handleSelect(id) {
