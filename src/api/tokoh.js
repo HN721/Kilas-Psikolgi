@@ -19,7 +19,7 @@ const tokohPsikologi = [
     kontribusi:
       "Pendiri psikoanalisis, memperkenalkan konsep id, ego, dan superego.",
     materi:
-      "Sigmund Freud mengembangkan psikoanalisis, sebuah pendekatan yang mengkaji alam bawah sadar manusia. Ia mengemukakan bahwa kepribadian terdiri dari tiga elemen utama: id (naluri dasar), ego (kesadaran), dan superego (moralitas). Konsep ini sangat berpengaruh dalam memahami konflik internal individu dan mekanisme pertahanan diri.",
+      "Freud memperkenalkan dunia pada alam bawah  Sadar yaitu id, ego, dan super ego Id sering juga disebut sebagai aspek biologis dalam kepribadian karena ia merupakan sumber dari instink atau dorongan biologis seperti makan, minum dan seks. Ego adalah eksekutif atau pelaksana yang bertugas  Memenuhi kebutuhan id dan membuat keputusan dorongan Apa yang akan dipuaskan dan dengan cara apa yang bisa memenuhi  Dorongan tersebut secara nyata.Super ego adalah aspek pertimbangan sosial atau moral dalam kepribadian. Ia bekerja berdasarkan prinsip salah atau benar, pantas atau tidak pantas menurut tata nilai yang berlaku di masyarakat.",
     gambar: james,
   },
   {
@@ -30,7 +30,7 @@ const tokohPsikologi = [
     kontribusi:
       "Mengembangkan konsep arketipe, kolektif tak sadar, dan individuasi.",
     materi:
-      "Carl Jung adalah pencetus psikologi analitis. Ia memperkenalkan konsep arketipe dan kolektif tak sadar, yang menyatakan bahwa setiap orang memiliki simbol dan pengalaman yang diwarisi dalam alam bawah sadar mereka. Jung juga mempromosikan proses individuasi, yaitu perjalanan untuk mengenali dan menyatukan aspek sadar dan tak sadar diri.",
+      "Jung mengembangkan gagasan Freud dan memperkenalkan konsep kesadaran dan ego, ketidaksadaran pribadi, serta ketidaksadaran kolektif Konsep kesadaran dan ego menurut jung yaitu kesadaran yang telah ada sejak individu dilahirkan dan mengalami perubahan dari bentuk yang kasar menjadi lebih halus dan terdiferensiasi dan ego merupakan bentuk diferensiasi kesadaran yang pertama serta ego berisi mengenai persepsi, ingatan, pikiran, dan perasaan. Ketidaksadaran pribadi menurut jung yaitu wilayah yang paling dekat dengan ego. Pengalaman yang tidak disetujui oleh Ego. Pengalaman tersebut pada akhirnya direpres, disupresi, dilupakan atau bahkan diabaikan. Ketidaksadaran kolektif menurut jung disebut juga sebagai juga dengan transpersonal unconscious. Ketidaksadaran merupakan ingatan masa lalu yang diwariskan dari generasi ke generasi bahkan termasuk juga sebelum generasi tersebut mengalami evolusi sehingga memunculkan beberapa naluri yang mirip dengan naluri/sifat binatang.",
     gambar: carl,
   },
   {
