@@ -30,7 +30,7 @@ const tokohPsikologi = [
     kontribusi:
       "Mengembangkan konsep arketipe, kolektif tak sadar, dan individuasi.",
     materi:
-      "Jung mengembangkan gagasan Freud dan memperkenalkan konsep kesadaran dan ego, ketidaksadaran pribadi, serta ketidaksadaran kolektif Konsep kesadaran dan ego menurut jung yaitu kesadaran yang telah ada sejak individu dilahirkan dan mengalami perubahan dari bentuk yang kasar menjadi lebih halus dan terdiferensiasi dan ego merupakan bentuk diferensiasi kesadaran yang pertama serta ego berisi mengenai persepsi, ingatan, pikiran, dan perasaan. Ketidaksadaran pribadi menurut jung yaitu wilayah yang paling dekat dengan ego. Pengalaman yang tidak disetujui oleh Ego. Pengalaman tersebut pada akhirnya direpres, disupresi, dilupakan atau bahkan diabaikan. Ketidaksadaran kolektif menurut jung disebut juga sebagai juga dengan transpersonal unconscious. Ketidaksadaran merupakan ingatan masa lalu yang diwariskan dari generasi ke generasi bahkan termasuk juga sebelum generasi tersebut mengalami evolusi sehingga memunculkan beberapa naluri yang mirip dengan naluri/sifat binatang.",
+      "Jung mengembangkan gagasan Freud dan memperkenalkan konsep kesadaran dan ego, ketidaksadaran pribadi, serta ketidaksadaran kolektif  Konsep kesadaran dan ego menurut jung yaitu kesadaran yang telah ada sejak individu dilahirkan dan mengalami perubahan dari bentuk yang kasar menjadi lebih halus dan terdiferensiasi dan ego merupakan bentuk diferensiasi kesadaran yang pertama serta ego berisi mengenai persepsi, ingatan, pikiran, dan perasaan. Ketidaksadaran pribadi menurut jung yaitu wilayah yang paling dekat dengan ego. Pengalaman yang tidak disetujui oleh Ego. Pengalaman tersebut pada akhirnya direpres, disupresi, dilupakan atau bahkan diabaikan. Ketidaksadaran kolektif menurut jung disebut juga sebagai juga dengan transpersonal unconscious. Ketidaksadaran merupakan ingatan masa lalu yang diwariskan dari generasi ke generasi bahkan termasuk juga sebelum generasi tersebut mengalami evolusi sehingga memunculkan beberapa naluri yang mirip dengan naluri/sifat binatang.",
     gambar: carl,
   },
   {
@@ -40,8 +40,18 @@ const tokohPsikologi = [
     teori: "Teori Inferioritas",
     kontribusi:
       "Menekankan pentingnya perasaan inferioritas dan kompensasi dalam pengembangan kepribadian.",
-    materi:
-      "Alfred Adler mendirikan psikologi individual, yang menyoroti peran perasaan rendah diri dalam membentuk perilaku dan motivasi individu. Ia percaya bahwa manusia terdorong untuk mengatasi kekurangan mereka dan mencapai superioritas. Konsep kompensasi ini menjadi dasar dalam memahami perilaku adaptif dan maladaptif.",
+    materi: `Minat sosial yang diajukan oleh adler sebenarnya berasal dari
+      Istilah jerman “gemeinschaftsgefuhl” yang memiliki arti perasaan
+      Sosial dan perasaan komunitas. Seseorang yang mengembangkan minat 
+      Sosial dengan baik akan berjuang mencapai kesuksesan dengan tujuan ingin
+      Menciptakan kesempurnaan untuk semua orang dalam komunitas yang ideal. 
+      
+      Minat ini diyakini bersifat bawaan dan
+      Merupakan kodrat manusia. Ketidakmampuan manusia 
+      Mengembangkan minat sosial disebabkan oleh inferioritas yang 
+      Menutupi minat sosial, hambatan pelatihan, dan bimbingan untuk 
+      Mengembangkan minat sosial agar berkembang.
+      `,
     gambar: alfred,
   },
   {
@@ -51,8 +61,9 @@ const tokohPsikologi = [
     teori: "Teori Behaviorisme",
     kontribusi:
       "Pendiri aliran behaviorisme, menekankan pentingnya pengaruh lingkungan terhadap perilaku.",
-    materi:
-      "John B. Watson adalah pelopor behaviorisme, yang meneliti perilaku yang dapat diamati dan pengaruh lingkungan terhadap perilaku manusia. Ia menekankan bahwa semua perilaku adalah hasil dari interaksi dengan lingkungan, bukan hasil dari proses internal yang tidak terlihat.",
+    materi: `John B. Watson adalah seorang psikolog Amerika yang merupakan pendiri aliran behaviorisme. Behaviorisme adalah pendekatan dalam psikologi yang menekankan studi perilaku yang dapat diamati, mengabaikan proses mental internal yang tidak dapat diukur secara langsung. Watson percaya bahwa semua perilaku manusia bisa dijelaskan melalui proses pembelajaran dan interaksi dengan lingkungan.
+      Watson terkenal karena eksperimen "Little Albert", di mana ia menunjukkan bahwa seorang anak kecil bisa diajarkan untuk takut terhadap tikus putih melalui asosiasi dengan suara keras yang menakutkan. Eksperimen ini menegaskan keyakinan Watson bahwa emosi dan perilaku bisa dipelajari melalui kondisioning asosiatif. Pendekatan Watson pada behaviorisme telah mengarah pada pengembangan teknik-teknik terapi yang didasarkan pada prinsip-prinsip kondisioning, seperti terapi perilaku kognitif (CBT).
+      `,
     gambar: jhon,
   },
   {
