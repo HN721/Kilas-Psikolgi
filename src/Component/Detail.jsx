@@ -37,7 +37,7 @@ export default function Detail({ Tokoh }) {
         alt={person.nama}
       />
 
-      {/* <Comments /> */}
+      <Comments />
     </div>
   );
 }
