@@ -12,7 +12,7 @@ export const tokohContext = createContext();
 export default function App() {
   return (
     <Router>
-      <div className="bg-primary w-full">
+      <div className="bg-primary  w-full">
         <Navbar />
         <tokohContext.Provider value={tokohPsikologi}>
           <Routes>
