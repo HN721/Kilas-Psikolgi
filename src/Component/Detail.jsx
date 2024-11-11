@@ -13,6 +13,11 @@ export default function Detail({ Tokoh }) {
 
   return (
     <div className="text-center p-8">
+      <Link to={"/tokoh"}>
+        <button className="flex justify-start mt-6 px-4 py-2 bg-secondary text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
+          Kembali
+        </button>
+      </Link>
       <h1 className="text-3xl font-bold">{person.nama}</h1>
       <img
         className="w-64 h-64 mx-auto my-6 object-cover rounded-full"
@@ -31,11 +36,8 @@ export default function Detail({ Tokoh }) {
         src={person.gambar2}
         alt={person.nama}
       />
-      <Link to={"/tokoh"}>
-        <button className="mt-6 px-4 py-2 bg-secondary text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
-          Kembali
-        </button>
-      </Link>
+
+      <Comments />
     </div>
   );
 }
