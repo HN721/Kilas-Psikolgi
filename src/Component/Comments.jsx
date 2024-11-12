@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import user from "../assets/user.jpg";
 export default function Comments() {
   const [comments, setComments] = useState([]);
   const [commentInput, setCommentInput] = useState("");
@@ -31,7 +31,7 @@ export default function Comments() {
       <h2 className="text-2xl font-semibold mb-4">Komentar</h2>
 
       {/* Input komentar */}
-      <div className="flex items-center mb-4">
+      <div className="flex items-center  gap-3 mb-4">
         <input
           type="text"
           className="flex-1 p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -41,23 +41,34 @@ export default function Comments() {
         />
         <button
           onClick={handleAddComment}
-          className="px-4 py-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="px-4 py-2 bg-green  text-primary rounded-r-md focus:outline-none focus:ring-2 focus:ring-slate"
         >
           Kirim
         </button>
       </div>
 
       {/* Daftar komentar */}
-      <div className="space-y-4">
+      <div className="space-y-4 ">
         {comments.length === 0 && (
           <p className="text-gray-500">
             Belum ada komentar. Jadilah yang pertama!
           </p>
         )}
         {comments.map((comment, index) => (
-          <div key={index} className="p-4 border border-gray-200 rounded-md">
-            <p className="text-gray-800">{comment.text}</p>
-            <p className="text-gray-400 text-sm mt-2">{comment.date}</p>
+          <div
+            key={index}
+            className="flex justify-start items-center p-4 border border-primary rounded-md"
+          >
+            <img
+              src={user}
+              alt=""
+              className="w-20 h-20 object-cover rounded-full"
+            />
+            <div>
+              <h1 className="font-bold text-lg">Anonim</h1>
+              <p className="text-gray-800">{comment.text}</p>
+              <p className="text-gray-400 text-sm mt-2">{comment.date}</p>
+            </div>
           </div>
         ))}
       </div>
