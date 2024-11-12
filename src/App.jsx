@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from "react";
+import React, { createContext, useContext, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 import Home from "./Page/Home";
@@ -10,6 +10,9 @@ import Tokoh from "./Page/Tokoh";
 export const tokohContext = createContext();
 
 export default function App() {
+  useEffect(() => {
+    document.title = "Kilas Psikologi";
+  }, []);
   return (
     <Router>
       <div className="bg-primary  w-full">

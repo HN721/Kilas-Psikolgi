@@ -244,8 +244,13 @@ const tokohPsikologi = [
     teori: "Teori Stimulus Respon",
     gambar: jon,
     gambar2: jon2,
-    materi:
-      "Miller bekerja bersama Dollard di Institute of Human Relations (1932-1935), menghubungkan psikoanalisis dengan pendekatan behaviorisme. Teori mereka, dipengaruhi oleh Hull-Spencer, menggabungkan motivasi perilaku dengan prinsip psikologi belajar dan kondisi sosial. Eksperimen mereka dengan tikus menunjukkan prinsip-prinsip pengkondisian klasik, pengkondisian operan, ekstingsi, serta konsep drive primer dan sekunder.",
+    materi: `Pada tahun 1922, John Dollard meraih gelar sarjana di University of Wisconsin dan kemudian melanjutkan studi di University of Chicago, serta mempelajari psikoanalisis di Berlin Institute. Pada tahun 1931, ia mulai mengajar di Yale University dan menjadi profesor psikologi pada 1948. Dollard memiliki minat luas di bidang ilmu sosial.
+
+      Langal Miller memperoleh gelar BA dari University of Washington pada 1931, MA dari Stanford University pada 1932, dan doktor di Yale. Ia bekerja sebagai asisten di Institute of Human Relations (1932-1935), di mana ia berkolaborasi dengan Dollard untuk menghubungkan psikoanalisis dengan pendekatan behaviorisme.
+      
+      Teori mereka dipengaruhi oleh Hull-Spencer, berfokus pada motivasi dalam perilaku dan pembelajaran. Mereka menjelaskan konsep psikoanalitik menggunakan prinsip-prinsip psikologi belajar dan kondisi sosial.
+      
+      *Eksperimen Dollard dan Miller* melibatkan tikus dalam kotak yang memberikan kejutan listrik. Tikus belajar menghindari rasa sakit dengan meloncati sekat atau menekan pengumpil.`,
   },
   {
     id: 9,

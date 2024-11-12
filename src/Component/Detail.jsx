@@ -60,6 +60,34 @@ export default function Detail({ Tokoh }) {
           </ul>
         </div>
       )}
+      {id === "8" && (
+        <div className="text-left text-base my-4 mx-8 space-y-4">
+          <h2 className="text-2xl font-semibold mb-2">
+            Eksperimen ini menunjukkan prinsip-prinsip:
+          </h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <strong>Classical Conditioning :</strong> Merespons suara bel
+              dengan rasa sakit
+            </li>
+            <li>
+              <strong>Operant Conditioning:</strong> Mengganti meloncat dengan
+              menekan pengumpil
+            </li>
+            <li>
+              <strong>Respons Tidak Terkondisi (UCR):</strong> Respons otomatis
+              yang terjadi secara alami sebagai reaksi terhadap UCS.
+            </li>
+            <li>
+              <strong>Extinction:</strong> Perubahan perilaku.
+            </li>
+            <li>
+              <strong>Primary dan secondary drive :</strong>Rasa sakit
+              menyebabkan rasa takut.
+            </li>
+          </ul>
+        </div>
+      )}
 
       {/* Tampilkan materi sebagai dua paragraf */}
 
