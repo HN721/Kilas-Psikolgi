@@ -209,11 +209,6 @@ const tokohPsikologi = [
     teori: "Classical Conditioning",
     materi: `Ivan Pavlov adalah seorang fisiolog Rusia yang paling dikenal karena karyanya dalam bidang classical conditioning. Penelitiannya yang paling terkenal melibatkan percobaan dengan anjing, di mana ia menemukan bahwa anjing dapat dilatih untuk mengeluarkan air liur sebagai respons terhadap suara metronom yang sebelumnya tidak signifikan, jika suara tersebut berulang kali dipasangkan dengan makanan. Penemuan ini dikenal sebagai refleks terkondisi atau kondisioning klasik, yang menunjukkan bahwa respons alami dapat dikaitkan dengan stimulus yang awalnya netral melalui proses pembelajaran asosiatif.
       Pavlov mengembangkan konsep-konsep penting seperti:
-      •	Stimulus Netral (NS): Stimulus yang awalnya tidak memicu respons otomatis.
-      •	Stimulus Tidak Terkondisi (UCS): Stimulus yang secara alami memicu respons otomatis tanpa memerlukan pembelajaran sebelumnya.
-      •	Respons Tidak Terkondisi (UCR): Respons otomatis yang terjadi secara alami sebagai reaksi terhadap UCS.
-      •	Stimulus Terkondisi (CS): Stimulus awalnya netral yang setelah dipasangkan dengan UCS, menjadi mampu memicu respons.
-      •	Respons Terkondisi (CR): Respons yang dipelajari yang terjadi sebagai reaksi terhadap CS.
       `,
   },
   {

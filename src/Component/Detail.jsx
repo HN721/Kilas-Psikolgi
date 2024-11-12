@@ -25,12 +25,44 @@ export default function Detail({ Tokoh }) {
         alt={person.nama}
       />
       <p className="text-xl font-semibold mb-4">{person.teori}</p>
-      {/* Tampilkan materi sebagai dua paragraf */}
+
+      {/* Render specific subsections for ID 4 */}
       <div className="text-justify text-base my-4 mx-8 space-y-4">
         {materiParagraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
       </div>
+      {id === "4" && (
+        <div className="text-left text-base my-4 mx-8 space-y-4">
+          <h2 className="text-2xl font-semibold mb-2">Subsections:</h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <strong>Stimulus Netral (NS):</strong> Stimulus yang awalnya tidak
+              memicu respons otomatis.
+            </li>
+            <li>
+              <strong>Stimulus Tidak Terkondisi (UCS):</strong> Stimulus yang
+              secara alami memicu respons otomatis tanpa memerlukan pembelajaran
+              sebelumnya.
+            </li>
+            <li>
+              <strong>Respons Tidak Terkondisi (UCR):</strong> Respons otomatis
+              yang terjadi secara alami sebagai reaksi terhadap UCS.
+            </li>
+            <li>
+              <strong>Stimulus Terkondisi (CS):</strong> Stimulus awalnya netral
+              yang setelah dipasangkan dengan UCS, menjadi mampu memicu respons.
+            </li>
+            <li>
+              <strong>Respons Terkondisi (CR):</strong> Respons yang dipelajari
+              yang terjadi sebagai reaksi terhadap CS.
+            </li>
+          </ul>
+        </div>
+      )}
+
+      {/* Tampilkan materi sebagai dua paragraf */}
+
       <img
         className="w-164 h-164 mx-auto my-6 object-cover"
         src={person.gambar2}
