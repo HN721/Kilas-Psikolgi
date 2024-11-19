@@ -25,6 +25,11 @@ export default function Home() {
             <button className="bg-secondary lg:w-56 w-35 text-sm p-3 rounded-2xl">
               @Kilas Psikologi
             </button>
+            <Link to={"/quizz"}>
+              <button className="bg-green hover:bg-blue lg:w-56 w-35 p-3 rounded-2xl text-slate">
+                Mulai Quizz
+              </button>
+            </Link>
 
             <Link to={"/pendahuluan"}>
               <button className="bg-black hover:bg-button lg:w-56 w-35 p-3 rounded-2xl text-slate">

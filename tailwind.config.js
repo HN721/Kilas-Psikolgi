@@ -14,7 +14,7 @@ export default {
       green: "#22c55e",
       slate: "#FFFF",
       border: "#0284c7",
-      blue: "#c7d2fe",
+      blue: "#4ade80",
     },
   },
   plugins: [],
