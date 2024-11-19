@@ -42,7 +42,7 @@ export default function Quizz() {
           </h2>
           <p className="text-lg text-button mb-6">{currentQuiz.question}</p>
           {currentQuiz.gambar && currentQuiz.id === 4 && (
-            <div className="flex flex-row mb-4  gap-3 ">
+            <div className="grid gap-3 grid-cols-2 lg:flex  lg:flex-row mb-4 ">
               {currentQuiz.gambar.map((img, index) => (
                 <img
                   key={index}

@@ -76,6 +76,11 @@ export default function Navbar() {
             Pengenalan Tokoh
           </a>
         </Link>
+        <Link to={"/quizz"}>
+          <a className="font-semibold text-sm lg:text-lg text-gray-800 hover:text-gray-500">
+            Quizz
+          </a>
+        </Link>
       </div>
     </div>
   );

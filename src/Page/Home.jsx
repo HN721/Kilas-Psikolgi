@@ -22,9 +22,9 @@ export default function Home() {
             {/* Menambahkan kursor berkedip */}
           </h1>
           <div className="flex py-10 lg:mt-12 gap-4">
-            <Link to={"/quizz"}>
+            <Link to={"/pendahuluan"}>
               <button className="bg-secondary hover:bg-blue lg:w-56 w-35 p-3 rounded-2xl text-slate">
-                Mulai Quizz
+                @kilas-Psikologi
               </button>
             </Link>
 
