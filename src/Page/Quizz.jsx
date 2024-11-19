@@ -81,7 +81,7 @@ export default function Quizz() {
                         : isWrong
                         ? "bg-red border-red text-slate"
                         : "bg-slate border-border"
-                      : "bg-slate border-border hover:bg-blue"
+                      : "bg-slate border-border hover:bg-border hover:text-slate"
                   }`}
                   onClick={() => handleAnswerSelect(option)}
                   disabled={selectedAnswer} // Disable button after selection
