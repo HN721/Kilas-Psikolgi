@@ -1,41 +1,50 @@
 import skinner from "../assets/skinner.jpg";
-import rogers from "../assets/rogers.jpg";
-import albert from "../assets/albert.jpg";
-import carl from "../assets/carl.jpg";
-import alfred from "../assets/alfred.jpg";
 
 const quiz = [
   {
     id: 1,
-    question:
-      "Dalam eksperimen kotak teka-teki Thorndike, hewan yang digunakan untuk menguji teori pembelajaran adalah:",
-    options: ["Anjing", "Kucing", "Monyet", "Burung"],
-    answer: "Kucing", // Kucing
+    question: "Sigmund Freud dikenal karena teorinya tentang:",
+    options: [
+      "Psikologi perkembangan",
+      "Kondisi klasik",
+      "Struktur kepribadian (id, ego, superego)",
+      "Penguatan positif",
+    ],
+    answer: "Struktur kepribadian (id, ego, superego)",
   },
   {
     id: 2,
-    question: "Sigmund Freud adalah bapak:",
+    question: "Carl Jung memperkenalkan konsep:",
     options: [
-      "Psikologi Klinis",
-      "Psikoanalisis",
-      "Psikologi Kognitif",
-      "Psikologi Eksperimen",
+      "Hierarki kebutuhan",
+      "Tahap-tahap perkembangan kognitif",
+      "Kolektif tak sadar",
+      "Penguatan negatif",
     ],
-    answer: "Psikoanalisis", // Psikoanalisis
+    answer: "Kolektif tak sadar",
   },
   {
     id: 3,
-    question: "Tokoh yang menciptakan terapi Humanistik:",
-    options: ["Carls Rogers", "B. F Skinner", "Carl Jung", "Alfred Adler"],
-    answer: "Carls Rogers", // Carls Rogers
+    question: "Abraham Maslow dikenal karena teorinya tentang:",
+    options: [
+      "Hierarki kebutuhan",
+      "Struktur kepribadian",
+      "Tahap-tahap perkembangan kognitif",
+      "Teori penguatan",
+    ],
+    answer: "Hierarki kebutuhan",
   },
   {
     id: 4,
     question:
-      "Siapakah yang memperkenalkan konsep kesadaran dan ketidaksadaran:",
-    options: ["Carls Rogers", "Albert Bandura", "Carl Jung", "Alfred Adler"],
-    gambar: [rogers, albert, carl, alfred],
-    answer: "Carl Jung", // Carl Jung
+      "Thorndike menggunakan metode apa dalam eksperimennya untuk mempelajari perilaku?",
+    options: [
+      "Kondisi klasik",
+      "Pembelajaran sosial",
+      "Kondisi operan",
+      "Percobaan dan kesalahan (trial and error)",
+    ],
+    answer: "Percobaan dan kesalahan (trial and error)",
   },
   {
     id: 5,

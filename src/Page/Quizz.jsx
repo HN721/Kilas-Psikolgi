@@ -40,18 +40,7 @@ export default function Quizz() {
           <h2 className="text-2xl font-semibold text-button mb-4">
             Question {currentQuestionIndex + 1} of {quiz.length}
           </h2>
-          {currentQuiz.gambar && currentQuiz.id === 4 && (
-            <div className="grid gap-3 grid-cols-2 lg:flex  lg:flex-row mb-4 ">
-              {currentQuiz.gambar.map((img, index) => (
-                <img
-                  key={index}
-                  src={img}
-                  alt={`Quiz Illustration ${index + 1}`}
-                  className="rounded-md w-24 h-24 object-cover"
-                />
-              ))}
-            </div>
-          )}
+
           {/* Render Image if available */}
           {currentQuiz.gambar && currentQuiz.id === 5 && (
             <div className="mb-4">
