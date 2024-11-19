@@ -11,9 +11,6 @@ import Quizz from "./Page/Quizz";
 export const tokohContext = createContext();
 
 export default function App() {
-  useEffect(() => {
-    document.title = "Kilas Psikologi";
-  }, []);
   return (
     <Router>
       <div className="bg-primary  w-full">
