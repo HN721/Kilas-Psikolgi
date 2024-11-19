@@ -7,6 +7,7 @@ import Detail from "./Component/Detail";
 import tokohPsikologi from "./api/tokoh";
 import Pendahuluan from "./Page/Pendahuluan";
 import Tokoh from "./Page/Tokoh";
+import Quizz from "./Page/Quizz";
 export const tokohContext = createContext();
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/pendahuluan" element={<Pendahuluan />} />
             <Route path="/tokoh" element={<Tokoh />} />
+            <Route path="/quizz" element={<Quizz />} />
             <Route
               path="/detail/:id"
               element={<Detail Tokoh={tokohPsikologi} />}
