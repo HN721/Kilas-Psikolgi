@@ -25,7 +25,7 @@ export default function Pendahuluan() {
 
       <div className="h-screen flex flex-col mt-2 lg:flex-row lg:items-center">
         {/* Text Section */}
-        <div className="px-10 lg:mx-16 mt-10 transition-all duration-700 ease-in-out opacity-0 transform lg:opacity-100 lg:translate-y-0">
+        <div className="px-10 lg:mx-16 mt-10 transition-all duration-700 ease-in-out opacity-100 transform lg:opacity-100 lg:translate-y-0">
           <h1 className="font-bold font-mono text-2xl lg:text-5xl transition-all duration-500 ease-in-out transform hover:scale-105">
             Pengenalan Singkat Psikologi
           </h1>
