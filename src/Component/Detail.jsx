@@ -25,7 +25,7 @@ export default function Detail({ Tokoh }) {
       }`}
     >
       <Link to={"/tokoh"}>
-        <button className="flex justify-start mt-6 px-4 py-2 bg-secondary text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
+        <button className="flex justify-start mt-6 px-4 py-2 bg-blue text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
           Kembali
         </button>
       </Link>

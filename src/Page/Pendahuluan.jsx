@@ -30,10 +30,10 @@ export default function Pendahuluan() {
             Pengenalan Singkat Psikologi
           </h1>
           <p
-            className={`font-semibold text-lg lg:text-2xl text-gray-700 lg:w-4/5 mt-6 transition-all duration-700 ease-in-out ${
+            className={`font-semibold text-lg lg:text-2xl text-black lg:w-4/5 mt-6 transition-all duration-700 ease-in-out ${
               isVisible
                 ? "opacity-100 translate-x-0"
-                : "opacity-0 translate-x-full"
+                : "opacity-0 lg:translate-x-full translate-x-0"
             }`}
           >
             {fullText}
