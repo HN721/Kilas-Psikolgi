@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import quiz from "../api/quizz";
+import { UserContext } from "../UserContext";
 
 export default function Quizz() {
+  const { username } = useContext(UserContext);
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
@@ -33,8 +36,22 @@ export default function Quizz() {
 
   const currentQuiz = quiz[currentQuestionIndex];
 
+  // Calculate percentage score
+  const percentage = (score / quiz.length) * 100;
+
+  // Determine feedback message based on score
+  const getFeedbackMessage = () => {
+    if (percentage < 70) {
+      return `Maaf ${username}, kamu belum memahami materi ini. Silahkan baca kembali materinya.`;
+    } else if (percentage >= 80) {
+      return `Kamu hebat ${username} !, terus kembangkan pengetahuanmu!`;
+    } else {
+      return "Bagus! Teruskan usaha kamu!";
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-primary p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-secondary p-6">
       {!showResult ? (
         <div className="bg-slate p-6 rounded-lg shadow-md w-full max-w-3xl">
           <h2 className="text-2xl font-semibold text-button mb-4">
@@ -47,7 +64,7 @@ export default function Quizz() {
               <img
                 src={currentQuiz.gambar}
                 alt="Quiz Illustration"
-                className="rounded-md w-40 h-40 "
+                className="rounded-md w-40 h-40"
               />
             </div>
           )}
@@ -84,7 +101,7 @@ export default function Quizz() {
           <button
             className={`mt-6 w-full py-3 px-4 rounded-lg text-slate font-semibold shadow-md transition-all ${
               selectedAnswer
-                ? "bg-button hover:bg-secondary"
+                ? "bg-button hover:bg-border"
                 : "bg-silver cursor-not-allowed"
             }`}
             onClick={handleNextQuestion}
@@ -96,10 +113,16 @@ export default function Quizz() {
       ) : (
         <div className="bg-slate p-6 rounded-lg shadow-md w-full max-w-xl text-center">
           <h2 className="text-3xl font-bold text-black mb-4">Quiz Completed</h2>
+
+          {/* Display percentage score */}
           <p className="text-lg text-black mb-6">
-            Your score: <span className="font-bold">{score}</span> out of{" "}
-            {quiz.length}
+            Nilai Anda:{" "}
+            <span className="font-bold">{Math.round(percentage)}%</span>
           </p>
+
+          {/* Feedback message */}
+          <p className="text-lg text-black mb-6">{getFeedbackMessage()}</p>
+
           <button
             className="py-3 px-6 bg-green text-slate font-semibold rounded-lg shadow-md hover:bg-secondary transition-all"
             onClick={() => window.location.reload()}
